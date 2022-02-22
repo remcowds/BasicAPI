@@ -26,5 +26,4 @@ module.exports = {
 	updateCategory,
 	createCategory,
 	removeCategory,
-	wrongshitman
 }
