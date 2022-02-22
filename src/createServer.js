@@ -140,7 +140,7 @@ module.exports = async function createServer() {
 			return new Promise((resolve) => {
 				const port = process.env.PORT || 9000;
 				app.listen(port);
-				console.log(`listening on ${port} 👽`)
+				console.log(`Listening on ${port} 👽`)
 				resolve();
 			});
 		},
